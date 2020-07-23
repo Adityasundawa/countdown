@@ -2,7 +2,6 @@ package kupluk.smk.coding.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_jadwal_sholat.*
 import kupluk.smk.coding.R
@@ -55,6 +54,7 @@ class JadwalSholatActivity : AppCompatActivity() {
         jadwal_isya.text = jadwalShalat?.isya
         Toast.makeText(this, "Sukses mendapatkan jadwal :)", Toast.LENGTH_SHORT).show()
     }
+
 
 //    private fun callShalatTime() {
 //

@@ -10,22 +10,22 @@ class TasbihActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.fragment_tasbih)
 
-        var awal = 0
-
-        btnplus.setOnClickListener {
-
-            var awal = awal++
-            textView.setText(awal.toString())
-        }
-        btnReset.setOnClickListener {
-
-            if ( awal == 0 ) {
-                textView.setText(awal.toString())
-            } else {
-                awal = 0
-
-            }
-            textView.setText(awal.toString())
-        }
+//        var awal = 0
+//
+//        btnplus.setOnClickListener {
+//
+//            var awal = awal++
+//            textView.setText(awal.toString())
+//        }
+//        btnReset.setOnClickListener {
+//
+//            if ( awal == 0 ) {
+//                textView.setText(awal.toString())
+//            } else {
+//                awal = 0
+//
+//            }
+//            textView.setText(awal.toString())
+//        }
     }
 }
